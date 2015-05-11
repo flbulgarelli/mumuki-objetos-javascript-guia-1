@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: pepita
+  inspection: HasBinding
+- binding: pepita
+  inspection: Understands:volar!
+- binding: pepita
+  inspection: Understands:comer!
+- binding: pepita
+  inspection: Understands:energia
+- binding: pepita
+  inspection: Understands:energia=

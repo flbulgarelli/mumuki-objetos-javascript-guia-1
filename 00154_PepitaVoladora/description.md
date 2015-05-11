@@ -1,9 +1,21 @@
-Pepita ahora es mensajera, le enseñamos a volar sobre la ruta 9.
+Ahora queremos enseñarle a `pepita`  a volar sobre la ruta 9,  y poder usarla de la siguiente forma:
 
-Agregar los siguientes lugares sobre la ruta 9, con el kilómetro en el que está cada una, y agregar lo que haga falta para que:
+```ruby
+pepita.energia = 1000
+pepita.lugar = buenos_aires
+pepita.volar_a! santa_fe
 
-* pepita sepa dónde está (vale indicarle un lugar inicial al inicializarla).
-* le pueda decir a pepita que vaya a un lugar, eso cambia el lugar y la hace volar la distancia.
-* pueda preguntar si pepita puede o no ir a un lugar, puede ir si le da la energía para hacer la distancia entre donde está y donde le piden ir.
+#su energia debería haber disminuido por volar (419 - 12) km
+pepita.energia 
 
-Por ahora no validamos cuando le pedimos que vaya que pueda ir, eso lo agregaremos más adelante.
+#deberia ser santa_fe
+pepita.lugar 
+```
+
+Agregar los métodos necesario a pepita y los siguientes objetos:
+
+  * `buenos_aires`, que está en el km 12
+  * `santa_fe`, que está en el km 419
+  * `cordoba`, que está en el km 910
+
+**Nota**: Asumir que pepita ya está está creada y ya entiende el mensaje `volar!` que recibe una distancia y decrementa su energía

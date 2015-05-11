@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: pepita
+  inspection: Understands:cuanta_energia_gasta
+- binding: pepita
+  inspection: Understands:volar!
+- binding: pepita.volar!
+  inspection: HasUsage:cuanta_energia_gasta
+- binding: pepita.volar!
+  inspection: HasBinding
+- binding: pepita.cuanta_energia_gasta
+  inspection: HasBinding

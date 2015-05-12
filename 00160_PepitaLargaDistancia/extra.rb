@@ -1,0 +1,1 @@
+pepita = Object.new

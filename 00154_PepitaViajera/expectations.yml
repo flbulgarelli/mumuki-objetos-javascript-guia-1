@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: pepita.volar_a!
+  inspection: HasBinding

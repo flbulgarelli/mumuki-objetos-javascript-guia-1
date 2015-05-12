@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: buenos_aires
+  inspection: HasBinding
+- binding: santa_fe
+  inspection: HasBinding
+- binding: cordoba
+  inspection: HasBinding
+- binding: pepita.distancia_a
+  inspection: HasBinding

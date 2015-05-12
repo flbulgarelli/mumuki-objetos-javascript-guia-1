@@ -9,4 +9,6 @@ pepita.alcanza_energia? 2 #true
 pepita.energia #sigue siendo 100
 ```
 
-Además, queremos modificar volar! para que falle si no alcanza la energia
+Además, queremos modificar `volar!` para que falle (con una excepción) si no alcanza la energía. 
+
+Codificar los métodos necesarios, asumiendo que `pepita` ya existe y tiene  `energia`, `energia=`, y `cuanta_energia_gasta`

@@ -1,0 +1,22 @@
+---
+expectations:
+- binding: tom
+  inspection: HasBinding
+- binding: mickey
+  inspection: HasBinding
+- binding: squeak
+  inspection: HasBinding
+- binding: tom.energia
+  inspection: HasBinding
+- binding: tom.comer!
+  inspection: HasBinding
+- binding: tom.correr!
+  inspection: HasBinding
+- binding: tom.cuanto_aporta
+  inspection: HasBinding
+- binding: squeak
+  inspection: Not:HasPrimitiveType
+- binding: mickey
+  inspection: Not:HasPrimitiveType
+- binding: tom.comer!
+  inspection: HasUsage:aporte_energetico

@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: pepita.estado_animo
+  inspection: HasBinding
+- binding: pepita.cumplir_deseo!
+  inspection: HasBinding
+- binding: euforica
+  inspection: HasBinding
+- binding: cansada
+  inspection: HasBinding
+- binding: normal
+  inspection: HasBinding

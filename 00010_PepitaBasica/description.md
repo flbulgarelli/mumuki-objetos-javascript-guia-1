@@ -3,7 +3,7 @@ Pepita es una golondrina que:
 * Cuando vuela, consume un joule para cada kilómetro que vuela, más 10 joules de gasto fijo.
 * Cuando come, adquiere 4 joules por cada gramo que come.
 
-Sabi});o esto queremos poder utilizar a `pepita` de la siguiente forma:
+Sabiendo esto queremos poder utilizar a `pepita` de la siguiente forma:
 
 ```javascript
 pepita.energia = 100

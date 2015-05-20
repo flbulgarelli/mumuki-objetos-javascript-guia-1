@@ -1,7 +1,7 @@
 describe('PepitaEspeculadora', function() {
    it('preguntar cuantaEnergiaGasta no consume energia', function() {
       pepita.energia = 300;
-      pepita.cuanta_energia_gasta(40);
+      pepita.cuantaEnergiaGasta(40);
       assert(pepita.energia, 300);
    });
 

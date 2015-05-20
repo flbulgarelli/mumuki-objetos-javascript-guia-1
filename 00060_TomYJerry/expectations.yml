@@ -12,11 +12,11 @@ assertations:
   inspection: HasBinding
 - binding: tom.correr
   inspection: HasBinding
-- binding: tom.cuanto_aporta
+- binding: tom.cuantoAporta
   inspection: HasBinding
 - binding: squeak
   inspection: Not:HasPrimitiveType
 - binding: mickey
   inspection: Not:HasPrimitiveType
 - binding: tom.comer
-  inspection: HasUsage:aporte_energetico
+  inspection: HasUsage:aporteEnergetico

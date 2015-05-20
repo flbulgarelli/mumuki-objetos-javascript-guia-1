@@ -1,4 +1,4 @@
 ---
 assertations:
-- binding: pepita.volar_a!
+- binding: pepita.volarA
   inspection: HasBinding

@@ -1,10 +1,10 @@
 ---
 assertations:
-- binding: buenos_aires
+- binding: buenosAires
   inspection: HasBinding
-- binding: santa_fe
+- binding: santaFe
   inspection: HasBinding
 - binding: cordoba
   inspection: HasBinding
-- binding: pepita.distancia_a
+- binding: pepita.distanciaA
   inspection: HasBinding

@@ -1,1 +1,1 @@
-Los números enti});en el mensaje `abs`, que devuelve su valor absoluto
+Para obtener el valor absoluto de un número, usar `Math.abs(unNumero)`

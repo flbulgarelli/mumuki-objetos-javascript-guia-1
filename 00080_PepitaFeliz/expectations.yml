@@ -1,8 +1,8 @@
 ---
-expectations:
+assertations:
 - binding: pepita.estado_animo
   inspection: HasBinding
-- binding: pepita.cumplir_deseo!
+- binding: pepita.cumplir_deseo
   inspection: HasBinding
 - binding: euforica
   inspection: HasBinding

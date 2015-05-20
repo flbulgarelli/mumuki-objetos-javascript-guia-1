@@ -1,48 +1,48 @@
-describe "PepitaFeliz" do
-   describe "#cumplir_deseo!" do
-      before do
+describe("PepitaFeliz", function() {
+   describe("//cumplir_deseo", function() {
+      before, function() {
           pepita.recorrido = 0
           pepita.comido = 0
-      end
-      
-      context "si está euforica vuela 5 kms" do
-         before do
+      });
+
+      context "si está euforica vuela 5 kms", function() {
+         before, function() {
               pepita.estado_animo = euforica
-              pepita.cumplir_deseo! 
-          end
-          it "no come nada" do 
-              expect(pepita.comido).to eq 0
-          end
-          it "vuela 5km"  do
-              expect(pepita.recorrido).to eq 5 
-          end 
-      end
-      
-      context "si está normal no hace nada" do
-         before do
+              pepita.cumplir_deseo
+          });
+          it("no come nada", function() {
+              assert(pepita.comido, eq 0
+          });
+          it("vuela 5km" , function() {
+              assert(pepita.recorrido, eq 5
+          });
+      });
+
+      context "si está normal no hace nada", function() {
+         before, function() {
               pepita.estado_animo = normal
-              pepita.cumplir_deseo! 
-          end
-          it "no come nada" do 
-              expect(pepita.comido).to eq 0
-          end
-          it "no recorre nada"  do
-              expect(pepita.recorrido).to eq 0 
-          end 
-      end
-      
-      context "si está cansada" do
-          before do
+              pepita.cumplir_deseo
+          });
+          it("no come nada", function() {
+              assert(pepita.comido, eq 0
+          });
+          it("no recorre nada" , function() {
+              assert(pepita.recorrido, eq 0
+          });
+      });
+
+      context "si está cansada", function() {
+          before, function() {
               pepita.estado_animo = cansada
-              pepita.cumplir_deseo! 
-          end
-          it "come 500g" do 
-              expect(pepita.comido).to eq 500
-          end
-          it "no recorre nada"  do
-              expect(pepita.recorrido).to eq 0 
-          end
-      end
-      
-   end
-end
+              pepita.cumplir_deseo
+          });
+          it("come 500g", function() {
+              assert(pepita.comido, eq 500
+          });
+          it("no recorre nada" , function() {
+              assert(pepita.recorrido, eq 0
+          });
+      });
+
+   });
+});

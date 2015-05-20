@@ -1,1 +1,1 @@
-Los números entienden el mensaje `abs`, que devuelve su valor absoluto
+Los números enti});en el mensaje `abs`, que devuelve su valor absoluto

@@ -1,25 +1,25 @@
-describe "Tom y Jerry 2" do
-    describe "#velocidad" do
-        it "es 5 si tiene energia 0" do
+describe("Tom y Jerry 2", function() {
+    describe("//velocidad", function() {
+        it("es 5 si tiene energia 0", function() {
            tom.energia = 0
-           expect(tom.velocidad).to eq 5
-        end
-        it "es 6 si tiene energia 10" do
+           assert(tom.velocidad, eq 5
+        });
+        it("es 6 si tiene energia 10", function() {
            tom.energia = 10
-           expect(tom.velocidad).to eq 6
-        end
-        it "es 15 si tiene energia 100" do
+           assert(tom.velocidad, eq 6
+        });
+        it("es 15 si tiene energia 100", function() {
            tom.energia = 100
-           expect(tom.velocidad).to eq 15
-        end
-    end
-    
-    describe "#conviene_comer_a?" do
-       it "no le conviene si la distancia no es suficientemente corta" do
-           expect(tom.conviene_comer_a?(jerry, 10)).to be false 
-       end
-       it "le conviene si la distancia es suficientemente corta" do
-           expect(tom.conviene_comer_a?(jerry,  8)).to be true 
-       end
-    end
-end
+           assert(tom.velocidad, eq 15
+        });
+    });
+
+    describe("//conviene_comer_a?", function() {
+       it("no le conviene si la distancia no es suficientemente corta", function() {
+           assert(tom.conviene_comer_a?(jerry, 10), be false
+       });
+       it("le conviene si la distancia es suficientemente corta", function() {
+           assert(tom.conviene_comer_a?(jerry,  8), be true
+       });
+    });
+});

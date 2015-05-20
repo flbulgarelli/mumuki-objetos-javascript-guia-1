@@ -1,5 +1,5 @@
-Se puede hacer que un método falle de la siguiente forma: 
+Se puede hacer que un método falle de la siguiente forma:
 
-```ruby
-raise 'y aca va un mensaje de error'
+```javascript
+throw 'y aca va un mensaje de error'
 ```

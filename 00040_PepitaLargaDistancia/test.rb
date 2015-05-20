@@ -1,23 +1,23 @@
-describe "PepitaLargaDistancia" do
-    context 'desde buenos_aires' do
+describe("PepitaLargaDistancia", function() {
+    context 'desde buenos_aires', function() {
         before { pepita.ubicacion_actual = buenos_aires }
-        it { expect(pepita.distancia_a(buenos_aires)).to eq 0 }
-        it { expect(pepita.distancia_a(santa_fe)).to eq 407 }
-        it { expect(pepita.distancia_a(cordoba)).to eq 898 }
-    end
-    
-    context 'desde santa_fe' do
+        it({ assert(pepita.distancia_a(buenos_aires), eq 0 }
+        it({ assert(pepita.distancia_a(santa_fe), eq 407 }
+        it({ assert(pepita.distancia_a(cordoba), eq 898 }
+    });
+
+    context 'desde santa_fe', function() {
         before { pepita.ubicacion_actual = santa_fe }
-        it { expect(pepita.distancia_a(buenos_aires)).to eq 407 }
-        it { expect(pepita.distancia_a(santa_fe)).to eq 0 }
-        it { expect(pepita.distancia_a(cordoba)).to eq 491 }
-    end
-    
-    
-    context 'desde cordoba' do
+        it({ assert(pepita.distancia_a(buenos_aires), eq 407 }
+        it({ assert(pepita.distancia_a(santa_fe), eq 0 }
+        it({ assert(pepita.distancia_a(cordoba), eq 491 }
+    });
+
+
+    context 'desde cordoba', function() {
         before { pepita.ubicacion_actual = cordoba }
-        it { expect(pepita.distancia_a(buenos_aires)).to eq 898 }
-        it { expect(pepita.distancia_a(santa_fe)).to eq 491 }
-        it { expect(pepita.distancia_a(cordoba)).to eq 0 }
-    end
-end
+        it({ assert(pepita.distancia_a(buenos_aires), eq 898 }
+        it({ assert(pepita.distancia_a(santa_fe), eq 491 }
+        it({ assert(pepita.distancia_a(cordoba), eq 0 }
+    });
+});

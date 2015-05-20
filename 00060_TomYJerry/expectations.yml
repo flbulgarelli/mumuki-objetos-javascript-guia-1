@@ -1,5 +1,5 @@
 ---
-expectations:
+assertations:
 - binding: tom
   inspection: HasBinding
 - binding: mickey
@@ -8,7 +8,7 @@ expectations:
   inspection: HasBinding
 - binding: tom.energia
   inspection: HasBinding
-- binding: tom.comer!
+- binding: tom.comer
   inspection: HasBinding
 - binding: tom.correr!
   inspection: HasBinding
@@ -18,5 +18,5 @@ expectations:
   inspection: Not:HasPrimitiveType
 - binding: mickey
   inspection: Not:HasPrimitiveType
-- binding: tom.comer!
+- binding: tom.comer
   inspection: HasUsage:aporte_energetico

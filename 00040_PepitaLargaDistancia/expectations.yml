@@ -1,5 +1,5 @@
 ---
-expectations:
+assertations:
 - binding: buenos_aires
   inspection: HasBinding
 - binding: santa_fe

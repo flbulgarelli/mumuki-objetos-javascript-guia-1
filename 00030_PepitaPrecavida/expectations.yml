@@ -1,8 +1,8 @@
 ---
-expectations:
-- binding: pepita.alcanza_energia
+assertations:
+- binding: pepita.alcanzaEnergia
   inspection: HasBinding
-- binding: pepita.volar!
+- binding: pepita.volar
   inspection: HasBinding
-- binding: pepita.volar!
-  inspection: HasUsage:cuanta_energia_gasta?
+- binding: pepita.volar
+  inspection: HasUsage:cuantaEnergiaGasta

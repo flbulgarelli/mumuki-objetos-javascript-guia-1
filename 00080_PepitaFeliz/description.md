@@ -1,7 +1,7 @@
 ¡Pepita volvió a la carga! Pero esta vez no queremos seguir explotándola con nuestros pedidos de volar de acá para allá, sino que  queremos cumplir su deseo, de la siguiente forma:
 
 ```javascript
-pepita.cumplir_deseo
+pepita.cumplirDeseo()
 ```
 Lo que desea `pepita` varía según su estado de ánimo:
 
@@ -12,7 +12,7 @@ Lo que desea `pepita` varía según su estado de ánimo:
 Por lo tanto, vamos a tener que tener que decirle **antes** a `pepita` su estado de animo, por ejemplo:
 
 ```javascript
-pepita.estado_animo = euforica
+pepita.estadoAninmo = euforica
 ```
 
-Codificar los objetos y métodos necesarios para hacer esto. Asumir que pepita ya está creada y enti});e `comer` y `volar`
+Codificar los objetos y métodos necesarios para hacer esto. Asumir que pepita ya está creada y entiende `comer` y `volar`

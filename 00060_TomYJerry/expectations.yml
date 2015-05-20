@@ -10,7 +10,7 @@ assertations:
   inspection: HasBinding
 - binding: tom.comer
   inspection: HasBinding
-- binding: tom.correr!
+- binding: tom.correr
   inspection: HasBinding
 - binding: tom.cuanto_aporta
   inspection: HasBinding

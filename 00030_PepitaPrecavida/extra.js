@@ -1,5 +1,5 @@
 var pepita = {
   cuantaEnergiaGasta: function(x) {
-    return x
+    return x + 10
   }
 }

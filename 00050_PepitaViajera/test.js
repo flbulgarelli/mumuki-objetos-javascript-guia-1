@@ -3,12 +3,11 @@ describe('PepitaViajera', function() {
    before(function() { pepita.ubicacionActual = km0 });
    before(function() { pepita.volarA(km30) });
 
-   it(function() {
+   it('Si vualA un lugar, pierde energía', function() {
      assert.equal(pepita.energia, 70);
    });
 
-   it(function() {
+   it('Si vuela a un lugar, cambia si ubicación actual', function() {
      assert.equal(pepita.ubicacionActual, km30);
    });
-
 });
